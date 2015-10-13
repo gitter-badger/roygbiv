@@ -23,7 +23,7 @@ before_install:
   - conda update --yes conda
 
 install: # Install packages
-  - conda install --yes python=$TRAVIS_PYTHON_VERSION atlas numpy scipy matplotlib nose
+  - conda install --yes python=$TRAVIS_PYTHON_VERSION atlas numpy scipy matplotlib nose pandas
   # Coverage packages are on my binstar channel
   - "pip install python-coveralls coverage"
   - "pip install -r requirements.txt"
