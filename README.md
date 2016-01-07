@@ -5,6 +5,8 @@ Instructions for running demos are below. To run demos locally, install the `fla
 
 ###To set up the main demo locally:
 
+[![Join the chat at https://gitter.im/bcipolli/roygbiv](https://badges.gitter.im/bcipolli/roygbiv.svg)](https://gitter.im/bcipolli/roygbiv?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 1. Run `python get_data.py demo`. This will download sample data files.
 2. Run `server.py` to launch a light-weight web server
 3. Browse to `http://127.0.0.1:5000/`
